@@ -1,7 +1,10 @@
 ## This is a webpage that looks and acts like a terminal
 
 <hr>
-Original repo cloned from: <br> <a>https://github.com/asheeeshh/AshTerm.git</a>
+Original repo cloned from: <br>
+
+[asheeeshh GitHub Repo](https://github.com/asheeeshh/AshTerm.git)
+
 <hr>
 
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logoColor=white&label=Powered%20By)
