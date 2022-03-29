@@ -21,22 +21,14 @@ export default {
 			description: "About Me.",
 			usage: "about",
 			fn: () => {
-				return "About Me.\n---\nmale\n18\nstudent\nsolodev\nmelophile\nweeb\ndumb\napathetic\n---\n";
-			},
-		},
-		twitter: {
-			description: "Opens my Twitter Handle.",
-			usage: "twitter",
-			fn: () => {
-				window.open("https://twitter.com/_asheeshh", "_blank");
-				return "opening twitter handle...";
+				return "About Me.\n---\nmale\n28\nultimate chad\ngamer\nmelophile\nnerd\nanti-antisocial\nmoney lover\n---\n";
 			},
 		},
 		github: {
 			description: "Opens my GitHub Profile.",
 			usage: "twitter",
 			fn: () => {
-				window.open("https://github.com/asheeeshh", "_blank");
+				window.open("https://github.com/rlivermorejr", "_blank");
 				return "opening github account...";
 			},
 		},
@@ -44,7 +36,7 @@ export default {
 			description: "Opens my Discord Account.",
 			usage: "twitter",
 			fn: () => {
-				window.open("https://discordapp.com/users/784363251940458516", "_blank");
+				window.open("https://discordapp.com/users/742743814959005779", "_blank");
 				return "opening discord account...";
 			},
 		},
@@ -54,16 +46,23 @@ export default {
 			fn: () => {
 				return `
                     these are the languages I know.\n---\n
-                    english          - 70%
-                    hindi            - 100%
+                    english          - 90%
                     gen-z-langauge   - 00%
-                    python           - 60%
-                    javascript       - 40%
+                    python           - 70%
+                    javascript       - 80%
                     html5            - 90%
-                    css3             - 80%
-                    ruby             - 40%
-                    rust             - 10% - [learning]
-                    go-lang          - 10% - [learning]\n---\n
+                    css              - 90%\n---\n
+										RTE's:
+										node             - 80%\n---\n
+										FRAMEWORKS:
+										react            - 60%
+										django           - 80%
+                    ruby             - 10% - [learning]
+                    angular          - 10% - [learning]\n---\n
+										DATABASE ENGINES/MANAGERS:
+										MonogDB           - 60%
+										MySQL             - 40%
+										Sqlite3           - 40%\n---\n
                 `;
 			},
 		},
@@ -73,11 +72,11 @@ export default {
 			fn: () => {
 				return `
                     these are the skills I have.\n---\n
-                    procrastination  - 100%
-                    coding           - 50%
-                    studying         - 10%
-                    overthinking     - 100%
-                    social-skills    - 00%
+                    procrastination  - 0%
+                    coding           - 60%
+                    studying         - 30%
+                    overthinking     - 120%
+                    social-skills    - 10%
                     making-playlists - 100%\n---\n
                 `;
 			},
@@ -88,8 +87,8 @@ export default {
 			fn: () => {
 				return `
                     Cool projects I have worked on.\n---\n
-                    'kanna-chan'                      | 'Discord-Bot'         | 'python'
-                    'wordinal'                        | 'wordle-on-terminal'  | 'javascript'
+                    'ThePitBoard'                     | 'Fantasy-formula-1'   | 'python/django'
+                    'screaming'                       | 'social-media-forum'  | 'python/django'
                     'weeby.py'                        | 'API-wrapper'         | 'python'
                     'github-readme-banner-generator'  | 'banner-generator'    | 'javascript'\n---\n
                 `;

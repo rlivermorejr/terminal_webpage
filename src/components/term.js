@@ -8,22 +8,22 @@ export default function Term() {
 	const cmds = commands.commands;
 	const owrs = commands.overwrites;
 	const terminal = React.createRef();
-	const [prompt, setPrompt] = React.useState("you@/ashterm:~$ ");
-	const [home, sethome] = React.useState("ashterm");
+	const [prompt, setPrompt] = React.useState("you@/terminal:~$ ");
+	const [home, sethome] = React.useState("term");
 	const [dir, setdir] = React.useState({
-		ashterm: [],
+		term: [],
 	});
 	return (
 		<Terminal
 			ref={terminal}
 			welcomeMessage={[
-				"Welcome to ashterm!",
+				"Welcome to my terminal!",
 				"---",
 				"This is a terminal style website made with React.",
 				"---",
 				"Type 'help' to see a list of commands.",
 				"---",
-				"try starting with 'cat' (〜￣▽￣)〜",
+				"I dare you to type cat.... :3",
 				"---",
 			]}
 			commands={{
@@ -48,7 +48,7 @@ export default function Term() {
 					usage: "cd <directory>",
 					fn: (...args) => {
 						if (args.length === 1 && args[0] === "..") {
-							if (prompt === "you@/ashterm:~$ ") {
+							if (prompt === "you@/terminal:~$ ") {
 								return "cannot go up";
 							} else {
 								setPrompt(prompt.substring(0, prompt.lastIndexOf("/")) + ":~$ ");
