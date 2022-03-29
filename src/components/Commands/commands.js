@@ -101,7 +101,7 @@ export default {
 			fn: () => {
 				return `
                     Editor: Visual Studio Code\n
-                    Theme : GitHub Default Theme\n
+                    Theme : Andromeda Bordered\n
                     Font  : Consolas
                 `;
 			},
@@ -110,7 +110,7 @@ export default {
 			description: "Opens this website's github repository.",
 			usage: "repo",
 			fn: () => {
-				window.open("https://github.com/asheeeshh/AshTerm", "_blank");
+				window.open("https://github.com/rlivermorejr/terminal_webpage", "_blank");
 				return "opening repository...";
 			},
 		},
